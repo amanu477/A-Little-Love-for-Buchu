@@ -1,19 +1,24 @@
-# [Project name]
+# A Little Love for Buchu
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A mobile-first, interactive photo story with chapters, playful moments, and a personal note.
 
 ## Run & Operate
 
+- `pnpm install --frozen-lockfile` — install workspace dependencies from the lockfile
+- Replit preview: start `artifacts/buchu-love: web`; it runs `pnpm --filter @workspace/buchu-love run dev` and supplies `PORT` and `BASE_PATH`
+- `pnpm --filter @workspace/buchu-love run typecheck` — typecheck the story website
+- `PORT=5000 BASE_PATH=/ pnpm --filter @workspace/buchu-love run build` — build the static story site into `artifacts/buchu-love/dist/public`
 - `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
 - `pnpm run typecheck` — full typecheck across all packages
 - `pnpm run build` — typecheck + build all packages
 - `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
 - `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
+- `DATABASE_URL` is for the API/database packages; the static story website does not need it.
 
 ## Stack
 
 - pnpm workspaces, Node.js 24, TypeScript 5.9
+- Story website: React, Vite, Tailwind CSS, and Wouter
 - API: Express 5
 - DB: PostgreSQL + Drizzle ORM
 - Validation: Zod (`zod/v4`), `drizzle-zod`
@@ -22,15 +27,18 @@ _Replace the heading above with the project's name, and this line with one sente
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/buchu-love/src/` — story website, chapter flow, and content
+- `artifacts/buchu-love/public/images/` — supplied story photos
+- `artifacts/buchu-love/.replit-artifact/artifact.toml` — Replit preview path, service, and runtime environment
+- `lib/` and `artifacts/api-server/` — shared packages and API service
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+The Buchu story is a static Vite site; it does not call the API server or require a database.
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+A paginated personal story that weaves portraits and shared photos into scenes, with chapter navigation and optional music playback.
 
 ## User preferences
 

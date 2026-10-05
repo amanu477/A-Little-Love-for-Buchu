@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "A Little Love for Buchu"
+description = "A personal, interactive romantic story made for Abugu, lovingly called Buchu. A mobile-first photo experience with playful moments, a gentle relationship check-in, and a sincere note."
+version = "1.0.0"
+id = "artifacts/buchu-love"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 26136
+
+[services.development]
+run = "pnpm --filter @workspace/buchu-love run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/buchu-love", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/buchu-love/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "26136"
+BASE_PATH = "/"

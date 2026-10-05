@@ -1,0 +1,589 @@
+Build a beautiful, highly polished, interactive romantic website dedicated to my girlfriend.
+
+## IMPORTANT CONTEXT
+
+Her name is **Abugu**, and I call her **Buchu**.
+
+This website is a surprise for her after we had a small uncomfortable conversation. We did NOT have a serious fight, breakup, cheating, or major mistake. We simply disagreed, I got a little angry, and things became slightly uncomfortable.
+
+Therefore, DO NOT make this feel like a desperate apology website.
+
+The emotional message should be:
+
+> "We had a little uncomfortable moment, but you're still my favorite person, I still love you, and I wanted to make you smile."
+
+The website should make her:
+
+1. Smile
+2. Feel loved
+3. Laugh
+4. Feel special
+5. Feel that the website was genuinely made specifically for her
+
+It should feel like something a developer boyfriend lovingly built for his girlfriend—not a generic Valentine's template.
+
+---
+
+# DESIGN DIRECTION
+
+Create a premium, elegant, modern romantic experience.
+
+Style:
+
+* Soft
+* Cute
+* Playful
+* Romantic
+* Slightly funny
+* Elegant
+* Emotional without being overly dramatic
+
+Avoid:
+
+* Excessive hearts everywhere
+* Cheap-looking Valentine's templates
+* Overly dramatic apology language
+* Huge amounts of text
+* Childish cartoon design
+* Generic stock imagery
+* Anything that looks like a template
+
+Use a sophisticated color palette such as:
+
+* warm cream / ivory
+* soft blush pink
+* muted rose
+* deep burgundy
+* dark charcoal
+
+Use beautiful modern typography with an elegant serif font for major headings and a clean sans-serif font for body text.
+
+The website must look excellent on BOTH mobile and desktop, with mobile being the priority because she will probably open it on her phone.
+
+---
+
+# EXPERIENCE
+
+Make the website feel like a small interactive story rather than a normal website.
+
+The flow should be:
+
+1. Intro
+2. Meet Buchu
+3. The "evidence" section
+4. Photo memories
+5. Things I love about her
+6. Our little disagreement — handled playfully
+7. Interactive forgiveness/relationship game
+8. Emotional final message
+9. Surprise ending
+
+Use smooth scrolling, subtle animations, parallax where appropriate, floating elements, elegant transitions, hover effects, and tasteful micro-interactions.
+
+Do NOT over-animate everything.
+
+Animations should feel premium.
+
+---
+
+# SCREEN 1 — INTRO
+
+Create a cinematic opening screen.
+
+Show a beautiful large photo of Buchu.
+
+If no photo has been uploaded yet, create a clearly labeled image placeholder that can easily be replaced later.
+
+Text:
+
+"Hey, Buchu. ❤️"
+
+Then:
+
+"I made you something."
+
+Small secondary text:
+
+"Don't worry... it's not another serious conversation. 😂"
+
+Button:
+
+"Come see →"
+
+When clicked:
+
+* smoothly transition to the next section
+* subtle floating hearts/confetti
+* do not make the animation excessive
+
+---
+
+# SCREEN 2 — THE MAIN CHARACTER
+
+Heading:
+
+"First of all..."
+
+Then:
+
+"Meet the main character."
+
+Show several photos of Buchu in an elegant editorial-style layout.
+
+Use cards/polaroids with subtle rotation.
+
+Captions can include:
+
+"Beautiful? Obviously."
+
+"Cute? Unfortunately, yes."
+
+"Annoying sometimes? We'll investigate. 😂"
+
+"Someone I absolutely adore? Definitely."
+
+At the bottom:
+
+"Anyway... let's continue."
+
+---
+
+# SCREEN 3 — EVIDENCE
+
+Create a playful section called:
+
+"Exhibit A: Evidence that you're ridiculously cute."
+
+Display photos of Buchu.
+
+Each photo should have a small caption.
+
+Examples:
+
+"Exhibit A — That smile."
+
+"Exhibit B — The face I can't stay mad at."
+
+"Exhibit C — Completely unfair."
+
+"Exhibit D — How are you this pretty?"
+
+Make this section fun and interactive.
+
+When a photo is clicked, enlarge it beautifully in a modal/lightbox with the caption.
+
+---
+
+# SCREEN 4 — OUR MEMORIES
+
+Create a beautiful photo gallery for pictures of us together.
+
+Title:
+
+"Meanwhile... there's us."
+
+Use a premium masonry / editorial gallery.
+
+Allow clicking each image to open a full-screen lightbox.
+
+Add subtle captions where appropriate.
+
+Include a small line:
+
+"Some of my favorite moments have you in them."
+
+Do not invent memories or dates.
+
+Create placeholders for me to add real memories later.
+
+---
+
+# SCREEN 5 — THINGS I LOVE ABOUT YOU
+
+Create an elegant interactive section.
+
+Heading:
+
+"Things I love about you"
+
+Use cards that reveal themselves as the user scrolls.
+
+Examples:
+
+"Your smile."
+
+"Your laugh."
+
+"Your personality."
+
+"The way you are completely yourself."
+
+"Your little habits."
+
+"Your weirdness. 😂"
+
+"Just... you."
+
+The final card should be:
+
+"Basically, I like you a lot."
+
+Then smaller text:
+
+"Okay fine. I love you."
+
+Use tasteful animation.
+
+---
+
+# SCREEN 6 — THE LITTLE MOMENT
+
+This section is important.
+
+Do NOT make it sound like we had a huge fight.
+
+Heading:
+
+"About that little moment..."
+
+Text:
+
+"We disagreed."
+
+"I got a little annoyed."
+
+"You got a little uncomfortable."
+
+"And honestly... neither of us needed the drama. 😂"
+
+Then:
+
+"But one uncomfortable conversation doesn't change how much you mean to me."
+
+Then:
+
+"I don't want to be against you."
+
+"I want us to be on the same side."
+
+Final line:
+
+"Still you. Still me. Still us. ❤️"
+
+Keep this section short and sincere.
+
+---
+
+# SCREEN 7 — THE RELATIONSHIP STATUS
+
+Create a funny interactive "system diagnostic."
+
+Heading:
+
+"Running relationship diagnostics..."
+
+Animated progress bars:
+
+"Cuteness"
+100%
+
+"Inside jokes"
+92%
+
+"Stubbornness"
+99%
+
+"Random conversations"
+97%
+
+"Me annoying you"
+87%
+
+"Love"
+∞%
+
+Then show:
+
+"System status:"
+
+"Still completely obsessed with Buchu. ❤️"
+
+Add a small funny terminal-style effect, but keep the overall design elegant.
+
+---
+
+# SCREEN 8 — THE FORGIVENESS GAME
+
+Create a playful interactive question.
+
+Heading:
+
+"Okay, Buchu..."
+
+"Let's settle this scientifically."
+
+Question:
+
+"Are you still mad at me?"
+
+Three buttons:
+
+"Yes 😒"
+
+"A little 🥺"
+
+"No ❤️"
+
+Important:
+The buttons must NOT manipulate her or prevent her from choosing.
+
+If she chooses "Yes":
+
+Show:
+
+"Fair enough. 😭"
+
+"I'll accept my temporary punishment."
+
+Then:
+
+"But just so you know... I still love you."
+
+If she chooses "A little":
+
+Show:
+
+"Okay... we're making progress. 👀"
+
+If she chooses "No":
+
+Trigger a beautiful but tasteful celebration:
+
+"YEEEEES ❤️"
+
+"System restored."
+
+Use subtle confetti and floating hearts.
+
+Give her a button:
+
+"Continue →"
+
+---
+
+# SCREEN 9 — THE REAL MESSAGE
+
+This should be the most sincere section.
+
+Use a beautiful photo of us together.
+
+Heading:
+
+"One thing I actually want you to know."
+
+Text:
+
+"I don't expect us to agree on everything."
+
+"We're two different people, and sometimes we're going to misunderstand each other, get annoyed, or have uncomfortable conversations."
+
+"But I never want a small moment to make you forget how much I care about you."
+
+"I love you."
+
+"And even when we're being stubborn..."
+
+"I still choose you."
+
+End with:
+
+"Always your annoying developer. ❤️"
+
+Do not make this overly dramatic.
+
+---
+
+# SCREEN 10 — FINAL SURPRISE
+
+Create a cinematic final reveal.
+
+Start with:
+
+"Before you leave..."
+
+Then a button:
+
+"One last thing →"
+
+When clicked, transition to a full-screen beautiful photo of us.
+
+Display:
+
+"Buchu ❤️"
+
+Then:
+
+"If I could give you one thing right now..."
+
+"it would be a hug."
+
+Then:
+
+"Come here. 🫂"
+
+Add subtle floating particles/hearts.
+
+Final small text:
+
+"Made with love, code, and probably too much CSS."
+
+😂❤️
+
+---
+
+# PHOTO SYSTEM
+
+Create a simple centralized photo configuration so I can easily replace placeholder images later.
+
+For example:
+
+/public/images/
+
+Use meaningful filenames such as:
+
+buchu-hero.jpg
+buchu-01.jpg
+buchu-02.jpg
+buchu-03.jpg
+us-01.jpg
+us-02.jpg
+us-03.jpg
+final.jpg
+
+If images don't exist, show beautiful placeholders rather than broken images.
+
+Make replacing photos extremely easy.
+
+Do NOT use random stock photos in the final experience.
+
+---
+
+# MUSIC
+
+Include an optional background music feature.
+
+IMPORTANT:
+Do NOT automatically play music because mobile browsers often block autoplay.
+
+Create a small elegant music button in the corner:
+
+"♪ Play our song"
+
+When clicked, play the configured audio file.
+
+Allow pause/play.
+
+Keep the music control subtle.
+
+---
+
+# TECHNICAL REQUIREMENTS
+
+Use a modern React-based implementation if the existing project supports React.
+
+If the project already has a framework, preserve the existing architecture instead of unnecessarily rebuilding it.
+
+Requirements:
+
+* Fully responsive
+* Mobile-first
+* Fast loading
+* Accessible
+* Semantic HTML
+* Smooth scrolling
+* Keyboard accessible buttons
+* Proper image lazy loading
+* Optimized animations
+* No unnecessary dependencies
+* Clean reusable components
+* Clean folder structure
+* Easy photo replacement
+* Easy text customization
+
+Use CSS animations where possible instead of heavy animation libraries.
+
+If using an animation library already installed, use it appropriately.
+
+---
+
+# IMPORTANT UX DETAILS
+
+Add a small progress indicator showing where she is in the story.
+
+Example:
+
+01 / 10
+
+02 / 10
+
+etc.
+
+Make navigation intuitive.
+
+Allow scrolling naturally.
+
+Do not force the user through the website.
+
+The website should feel like a story she discovers.
+
+---
+
+# SECRET DETAIL
+
+Add one subtle developer-style Easter egg.
+
+For example, if she clicks the small heart logo 5 times, reveal:
+
+"Okay, you found the secret."
+
+Then:
+
+"You're officially too curious. 😂❤️"
+
+Do not make this obvious.
+
+---
+
+# FINAL QUALITY STANDARD
+
+This must NOT look like an AI-generated generic romantic website.
+
+It should look like a professionally designed interactive experience made by a talented frontend developer specifically for his girlfriend.
+
+Prioritize:
+
+* visual hierarchy
+* beautiful typography
+* whitespace
+* photography
+* subtle motion
+* emotional storytelling
+* personality
+* mobile experience
+
+Before finishing, test:
+
+* mobile layout
+* desktop layout
+* all buttons
+* all animations
+* photo lightbox
+* music control
+* scrolling
+* responsive typography
+* no broken images
+* no console errors
+
+Do not finish until the website feels polished and production-ready.
+
+The girlfriend's name is **Abugu**, but she is usually called **Buchu**. Use "Buchu" naturally throughout the experience.

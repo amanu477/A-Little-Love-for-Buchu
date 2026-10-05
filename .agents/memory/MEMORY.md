@@ -1,0 +1,1 @@
+- [Story layout direction](story-layout-direction.md) — keep the story paginated and weave supplied portraits into scenes; do not request extra photos.

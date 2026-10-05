@@ -21,8 +21,5 @@ export const portraits = [
   { src: '/images/buchu-15.jpg', alt: 'Buchu in warm window light', caption: 'My favorite person, obviously.' },
 ];
 
-// Replace these empty paths with real photos of the two of you; never use a solo portrait here.
-export const couplePhotos = ['', '', ''];
-export const couplePhoto = '';
 // Drop the supplied audio file here later. Playback is opt-in and handles a missing file.
 export const musicPath = '/audio/our-song.mp3';

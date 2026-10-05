@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import type { CSSProperties } from 'react';
 import { ArrowDown, ArrowLeft, ArrowRight, Heart, Music2, Pause, Sparkles, X } from 'lucide-react';
 import { useLocation } from 'wouter';
-import { heroPhoto, musicPath, portraits } from '../buchu-content';
+import { heroPhoto, musicPath, portraits, sharedPhotos } from '../buchu-content';
 
 type Photo = { src: string; alt: string; caption?: string };
 
@@ -244,7 +244,7 @@ export default function BuchuChapterStory() {
             </div>
             <div className="memory-ribbon">
               <span className="ribbon-line" aria-hidden="true" />
-              <PhotoCard photo={portraits[7]} className="memory-photo memory-photo-one" onOpen={openPhoto} testId="button-open-memory-1" />
+              <PhotoCard photo={sharedPhotos[0]} className="memory-photo memory-photo-one memory-photo-couple" onOpen={openPhoto} testId="button-open-memory-1" />
               <span className="memory-note">the little things</span>
               <PhotoCard photo={portraits[8]} className="memory-photo memory-photo-two" onOpen={openPhoto} testId="button-open-memory-2" />
               <span className="memory-note memory-note-two">your favorite face</span>
@@ -284,7 +284,7 @@ export default function BuchuChapterStory() {
             </div>
             <div className="moment-portrait">
               <span className="tape tape-top" aria-hidden="true" />
-              <PhotoCard photo={portraits[12]} className="moment-photo" onOpen={openPhoto} testId="button-open-moment-photo" />
+              <PhotoCard photo={sharedPhotos[1]} className="moment-photo moment-photo-couple" onOpen={openPhoto} testId="button-open-moment-photo" />
               <span className="moment-doodle" aria-hidden="true">♡</span>
             </div>
           </section>
@@ -376,7 +376,7 @@ export default function BuchuChapterStory() {
               <button className="restart-link" type="button" onClick={() => goTo(1)}>Read it again</button>
             </div>
             <div className="final-collage">
-              <PhotoCard photo={heroPhoto} className="final-hero-photo" onOpen={openPhoto} />
+              <PhotoCard photo={sharedPhotos[0]} className="final-hero-photo" onOpen={openPhoto} />
               <PhotoCard photo={portraits[0]} className="final-small-photo" onOpen={openPhoto} />
               <span className="final-seal">for my<br />favorite</span>
             </div>
@@ -444,7 +444,7 @@ export default function BuchuChapterStory() {
             <p className="scene-kicker">for my favorite person</p>
             <h2 id="reveal-title">Buchu <span aria-hidden="true">♥</span></h2>
             <p>If I could give you one thing right now...<br />it would be a hug.</p>
-            <PhotoCard photo={heroPhoto} className="reveal-portrait" onOpen={(photo) => setLightbox(photo)} />
+            <PhotoCard photo={sharedPhotos[0]} className="reveal-portrait" onOpen={(photo) => setLightbox(photo)} />
             <p className="reveal-come-here">Come here. 🫂</p>
             <p className="reveal-footer">Made with love, code, and probably too much CSS. 😂❤️</p>
             <button className="chapter-button" type="button" onClick={() => setRevealOpen(false)} data-testid="button-close-final-reveal">Close</button>

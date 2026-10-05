@@ -21,5 +21,18 @@ export const portraits = [
   { src: '/images/buchu-15.jpg', alt: 'Buchu in warm window light', caption: 'My favorite person, obviously.' },
 ];
 
+export const sharedPhotos = [
+  {
+    src: '/images/buchu-together-celebration.jpg',
+    alt: 'Buchu and her boyfriend smiling together at a celebration',
+    caption: 'A moment I want to keep.',
+  },
+  {
+    src: '/images/buchu-together-candid.jpg',
+    alt: 'Buchu and her boyfriend sharing a playful photo together',
+    caption: 'Just us, being us.',
+  },
+];
+
 // Drop the supplied audio file here later. Playback is opt-in and handles a missing file.
 export const musicPath = '/audio/our-song.mp3';

@@ -280,6 +280,7 @@ button, a { font: inherit; } button { color: inherit; }
 .memory-photo-one { top: 4%; left: 5%; transform: rotate(-7deg); }
 .memory-photo-two { top: 20%; left: 37%; width: 25%; height: 68%; transform: rotate(5deg); }
 .memory-photo-three { top: 0; right: 5%; width: 26%; height: 70%; transform: rotate(-4deg); }
+.memory-photo-couple img { object-position: center 58%; }
 .memory-note { position: absolute; top: 4%; left: 33%; color: var(--book-wine); font: italic 16px var(--app-font-serif); transform: rotate(-7deg); }.memory-note-two { top: 78%; left: 64%; transform: rotate(5deg); }
 .loves-scene { grid-template-columns: .82fr 1.18fr; }
 .loves-copy h2 { font-size: clamp(48px, 6.5vw, 80px); }
@@ -299,6 +300,7 @@ button, a { font: inherit; } button { color: inherit; }
 .moment-signoff { margin: 21px 0 0; color: var(--book-wine); font: italic 21px var(--app-font-serif); }
 .moment-portrait { position: relative; width: min(100%, 410px); height: 500px; justify-self: center; padding: 16px; background: hsl(40 44% 97%); box-shadow: 0 18px 45px hsl(348 23% 20% / .14); transform: rotate(3deg); }
 .moment-photo { width: 100%; height: 100%; }
+.moment-photo-couple img { object-fit: contain; background: hsl(28 40% 89%); }
 .tape { position: absolute; z-index: 3; top: -13px; left: 36%; width: 110px; height: 30px; background: hsl(86 19% 83% / .8); transform: rotate(-6deg); }.moment-doodle { position: absolute; right: -22px; bottom: -19px; color: var(--book-wine); font: 60px var(--app-font-serif); transform: rotate(13deg); }
 .page-6 { background: hsl(28 40% 89%); }
 .diagnostic-scene { grid-template-columns: .86fr 1.14fr; }
@@ -343,7 +345,7 @@ button, a { font: inherit; } button { color: inherit; }
 .chapter-footer { padding: 1px 20px 19px; color: var(--book-muted); text-align: center; font-size: 8px; letter-spacing: .12em; text-transform: uppercase; }
 .chapter-confetti { position: fixed; z-index: 50; inset: 0; overflow: hidden; pointer-events: none; }.chapter-confetti i { position: absolute; top: -24px; width: 9px; height: 15px; background: var(--confetti); animation: fall 3.5s var(--delay) ease-in forwards; transform: rotate(var(--rotate)); }
 .chapter-lightbox { position: fixed; z-index: 80; inset: 0; display: grid; place-items: center; padding: 24px; background: hsl(348 24% 11% / .95); animation: appear .2s ease-out both; }.chapter-lightbox .lightbox-content { max-width: min(90vw, 760px); text-align: center; }.chapter-lightbox img { display: block; max-width: 100%; max-height: 80vh; margin: auto; object-fit: contain; }.chapter-lightbox .lightbox-content p { color: white; font: italic 18px var(--app-font-serif); }.chapter-lightbox .lightbox-close { z-index: 2; }.chapter-lightbox .lightbox-hint { bottom: 18px; }
-.reveal-overlay { z-index: 90; }.reveal-inner { max-height: calc(100svh - 40px); overflow-y: auto; padding: 10px 0; }.reveal-inner h2 { color: hsl(40 44% 97%); }.reveal-inner > p { margin: 0 auto 13px; }.reveal-portrait { width: min(100%, 280px); height: 220px; margin: 23px auto 14px; }.reveal-inner .reveal-come-here { color: hsl(28 51% 75%); font: italic 23px var(--app-font-serif); }.reveal-inner .reveal-footer { margin-top: 14px; }
+.reveal-overlay { z-index: 90; }.reveal-inner { max-height: calc(100svh - 40px); overflow-y: auto; padding: 10px 0; }.reveal-inner h2 { color: hsl(40 44% 97%); }.reveal-inner > p { margin: 0 auto 13px; }.reveal-portrait { width: min(100%, 250px); height: 310px; margin: 23px auto 14px; }.reveal-inner .reveal-come-here { color: hsl(28 51% 75%); font: italic 23px var(--app-font-serif); }.reveal-inner .reveal-footer { margin-top: 14px; }
 @keyframes chapterEnter { from { opacity: 0; transform: translateY(14px) scale(.994); } to { opacity: 1; transform: translateY(0) scale(1); } }
 @media (max-width: 760px) {
   .chapter-header { padding: 13px 17px 9px; }.chapter-page { min-height: auto; padding: 24px 20px 24px; }.chapter-scene { min-height: 0; gap: 28px; }

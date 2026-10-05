@@ -32,13 +32,16 @@ function PhotoCard({
   className,
   onOpen,
   testId,
+  priority = false,
 }: {
   photo: Photo;
   className: string;
   onOpen: (photo: Photo) => void;
   testId?: string;
+  priority?: boolean;
 }) {
   const [failed, setFailed] = useState(false);
+  const webpSrc = photo.src.replace(/\.jpe?g$/i, '.webp');
 
   return (
     <button
@@ -51,7 +54,17 @@ function PhotoCard({
       {failed ? (
         <span className="portrait-unavailable">Photo unavailable</span>
       ) : (
-        <img src={photo.src} alt={photo.alt} loading="lazy" onError={() => setFailed(true)} />
+        <picture>
+          <source srcSet={webpSrc} type="image/webp" />
+          <img
+            src={photo.src}
+            alt={photo.alt}
+            loading={priority ? 'eager' : 'lazy'}
+            decoding="async"
+            fetchPriority={priority ? 'high' : 'auto'}
+            onError={() => setFailed(true)}
+          />
+        </picture>
       )}
       {photo.caption && <span className="portrait-caption">{photo.caption}</span>}
     </button>
@@ -185,7 +198,7 @@ export default function BuchuChapterStory() {
               <p className="cover-signature">made by your developer boyfriend · with extremely sincere intent</p>
             </div>
             <div className="cover-art" aria-label="Portrait collage of Buchu">
-              <PhotoCard photo={heroPhoto} className="cover-main-photo" onOpen={openPhoto} testId="button-open-cover-photo" />
+              <PhotoCard photo={heroPhoto} className="cover-main-photo" onOpen={openPhoto} testId="button-open-cover-photo" priority />
               <PhotoCard photo={portraits[14]} className="cover-small-photo" onOpen={openPhoto} />
               <div className="cover-sticker">my very<br />favorite</div>
               <span className="cover-sparkle sparkle-one">✳</span>
